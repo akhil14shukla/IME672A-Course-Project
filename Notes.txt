@@ -1,0 +1,2 @@
+But if we directly replace them with values like 1,2,3... , it can give the mining algorithms a wrong idea that there is a ranking between the values.
+To prevent this and to make the attributes more expressive, we will use One-Hot-Encoding (using pandas.get_dummies() ) to get numerical type attributes, and drop the original attributes.
